@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/repoListFragment">
+    app:startDestination="@id/userRepoFragment">
     <fragment
-        android:id="@+id/repoListFragment"
-        android:name="com.ankit.trendinggit.view.ui.repolist.RepoListFragment"
-        android:label="Trending List"
-        tools:layout="@layout/fragment_repo_list">
+        android:id="@+id/userRepoFragment"
+        android:name="com.ankit.trendinggit.view.ui.userrepo.UserRepoFragment"
+        android:label="User Repo"
+        tools:layout="@layout/fragment_user_repo">
         <action
             android:id="@+id/action_repoListFragment_to_repoDetailFragment"
             app:destination="@id/repoDetailFragment" />

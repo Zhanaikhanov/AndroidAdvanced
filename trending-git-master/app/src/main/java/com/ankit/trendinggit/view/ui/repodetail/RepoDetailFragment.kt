@@ -28,7 +28,7 @@ class RepoDetailFragment : Fragment() {
         setupWebView()
         setClickListeners()
 
-        repo_web_view.loadUrl(url)
+        repo_web_view.loadUrl(url!!)
     }
 
     private fun setClickListeners() {
